@@ -1,19 +1,28 @@
-.gallery{
+.gallery {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
-   padding: 24px 156px;
-}
-.gallery-item{
+    gap: 12px;
+    padding: 24px 156px;
+  }
+  
+  .gallery-item {
     list-style-type: none;
     width: calc((100% - 48px) / 3);
-}
-.gallery-item:hover{
+  }
+  
+  .gallery-item:hover {
     transform: scale(1.04);
-}
-
-img{
+  }
+  
+  img {
     display: block;
-    max-width: 100%;
-}
+    width: 100%;
+  }
+  body{
+    font-size: 24px;
+  }
+  a{
+    text-decoration: none;
+  }
+  
